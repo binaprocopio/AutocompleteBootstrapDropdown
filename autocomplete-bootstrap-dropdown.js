@@ -76,6 +76,7 @@
 
             $(options.btn).click(function () {
                 $(input_search).val("");
+                $(ul + " li").show();
                 $(ul).show();
                 $(input_search).focus();
             });
